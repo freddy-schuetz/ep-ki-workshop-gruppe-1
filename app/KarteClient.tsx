@@ -7,14 +7,11 @@ import skigebiete from "@/data/skigebiete.json";
 export default function KarteClient() {
   return (
     <MapContainer center={[46.8, 10.5]} zoom={7} className="h-full w-full">
-      {/* Winterliche Geländeansicht mit Schnee auf den Gipfeln */}
+      {/* Helles, schnee-weißes Winter-Design */}
       <TileLayer
-        attribution="Tiles &copy; Esri"
-        url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Terrain_Base/MapServer/tile/{z}/{y}/{x}"
-      />
-      {/* Ländergrenzen und Ortsnamen darüber */}
-      <TileLayer
-        url="https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}"
+        attribution='&copy; <a href="https://carto.com/">CARTO</a>'
+        url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png"
+        subdomains="abcd"
       />
       {skigebiete.gebiete.map((g) => (
         <CircleMarker
