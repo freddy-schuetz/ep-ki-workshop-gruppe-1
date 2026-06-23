@@ -8,9 +8,11 @@ export default function KarteClient() {
   return (
     <MapContainer center={[46.8, 10.5]} zoom={7} className="h-full w-full">
       <TileLayer
-        attribution='&copy; <a href="https://opentopomap.org">OpenTopoMap</a>'
-        url="https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png"
-        subdomains="abc"
+        attribution="Tiles &copy; Esri"
+        url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
+      />
+      <TileLayer
+        url="https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}"
       />
       {skigebiete.gebiete.map((g) => (
         <CircleMarker
