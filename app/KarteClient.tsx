@@ -6,7 +6,7 @@ import skigebiete from "@/data/skigebiete.json";
 
 export default function KarteClient() {
   return (
-    <MapContainer center={[46.8, 10.5]} zoom={6} className="h-full w-full">
+    <MapContainer center={[46.8, 10.5]} zoom={7} className="h-full w-full">
       <TileLayer
         attribution="&copy; OpenStreetMap"
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
@@ -40,6 +40,9 @@ export default function KarteClient() {
                   ✓ Skipass inklusive
                 </div>
               )}
+              <div style={{ color: "#1457c8", fontWeight: 600, marginTop: 4 }}>
+                🚌 Skibus inklusive
+              </div>
             </div>
           </Popup>
         </CircleMarker>
