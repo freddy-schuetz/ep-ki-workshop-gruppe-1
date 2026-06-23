@@ -40,9 +40,11 @@ export default function KarteClient() {
                   ✓ Skipass inklusive
                 </div>
               )}
-              <div style={{ color: "#1457c8", fontWeight: 600, marginTop: 4 }}>
-                🚌 Skibus inklusive
-              </div>
+              {"fahrzeitKoeln" in g && (
+                <div style={{ color: "#555", marginTop: 4 }}>
+                  🚌 Reisebus ab Köln: {(g as typeof g & { fahrzeitKoeln: string }).fahrzeitKoeln}
+                </div>
+              )}
             </div>
           </Popup>
         </CircleMarker>

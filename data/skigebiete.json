@@ -11,7 +11,8 @@
       "pistenKm": 270,
       "hoeheMeter": 2096,
       "highlight": "Riesiges Skicircus-Verbundgebiet mit legendärem Après-Ski.",
-      "skipassInklusive": true
+      "skipassInklusive": true,
+      "fahrzeitKoeln": "ca. 9 Std."
     },
     {
       "id": "montafon",
@@ -23,7 +24,8 @@
       "pistenKm": 140,
       "hoeheMeter": 2430,
       "highlight": "Breite Pisten, top für Gruppen – und ordentlich Après-Ski.",
-      "skipassInklusive": true
+      "skipassInklusive": true,
+      "fahrzeitKoeln": "ca. 8 Std."
     },
     {
       "id": "stubaital",
@@ -35,31 +37,8 @@
       "pistenKm": 64,
       "hoeheMeter": 3210,
       "highlight": "Gletscher mit Schneegarantie – Saisonstart schon im Herbst.",
-      "skipassInklusive": true
-    },
-    {
-      "id": "hintertux",
-      "name": "Hintertuxer Gletscher",
-      "land": "Österreich",
-      "region": "Zillertal, Tirol",
-      "lat": 47.0697,
-      "lng": 11.6628,
-      "pistenKm": 60,
-      "hoeheMeter": 3250,
-      "highlight": "Das ganze Jahr Schnee – das einzige 365-Tage-Skigebiet Österreichs.",
-      "skipassInklusive": true
-    },
-    {
-      "id": "soelden",
-      "name": "Sölden",
-      "land": "Österreich",
-      "region": "Ötztal, Tirol",
-      "lat": 46.9646,
-      "lng": 11.0086,
-      "pistenKm": 144,
-      "hoeheMeter": 3340,
-      "highlight": "Drei Gipfel über 3.000 m, schneesicher und bekannt aus James Bond.",
-      "skipassInklusive": true
+      "skipassInklusive": true,
+      "fahrzeitKoeln": "ca. 10 Std."
     },
     {
       "id": "davos",
@@ -71,7 +50,8 @@
       "pistenKm": 300,
       "hoeheMeter": 2844,
       "highlight": "Sechs Skigebiete, riesiges Gelände – ein Klassiker der Alpen.",
-      "skipassInklusive": true
+      "skipassInklusive": true,
+      "fahrzeitKoeln": "ca. 9 Std."
     },
     {
       "id": "arosa",
@@ -83,7 +63,8 @@
       "pistenKm": 225,
       "hoeheMeter": 2865,
       "highlight": "Sonnenverwöhnt und familienfreundlich, mit Panorama-Verbund.",
-      "skipassInklusive": true
+      "skipassInklusive": true,
+      "fahrzeitKoeln": "ca. 9 Std."
     },
     {
       "id": "portesdusoleil",
@@ -95,7 +76,8 @@
       "pistenKm": 600,
       "hoeheMeter": 2466,
       "highlight": "Eines der größten Skigebiete der Welt, grenzüberschreitend.",
-      "skipassInklusive": true
+      "skipassInklusive": true,
+      "fahrzeitKoeln": "ca. 9 Std."
     },
     {
       "id": "scuol",
@@ -107,7 +89,8 @@
       "pistenKm": 80,
       "hoeheMeter": 2785,
       "highlight": "Ruhiges Engadin-Gebiet mit Bädertradition im Tal.",
-      "skipassInklusive": true
+      "skipassInklusive": true,
+      "fahrzeitKoeln": "ca. 10 Std."
     },
     {
       "id": "deuxalpes",
@@ -119,7 +102,8 @@
       "pistenKm": 200,
       "hoeheMeter": 3600,
       "highlight": "Großer Gletscher, lange Talabfahrt und lebendiges Dorf.",
-      "skipassInklusive": true
+      "skipassInklusive": true,
+      "fahrzeitKoeln": "ca. 10 Std."
     },
     {
       "id": "valthorens",
@@ -131,7 +115,8 @@
       "pistenKm": 600,
       "hoeheMeter": 3230,
       "highlight": "Höchster Skiort Europas, Teil des größten Skigebiets der Welt.",
-      "skipassInklusive": true
+      "skipassInklusive": true,
+      "fahrzeitKoeln": "ca. 11 Std."
     },
     {
       "id": "ahrntal",
@@ -143,7 +128,8 @@
       "pistenKm": 50,
       "hoeheMeter": 2510,
       "highlight": "Familiäres Südtiroler Gebiet, schneesicher und gemütlich.",
-      "skipassInklusive": true
+      "skipassInklusive": true,
+      "fahrzeitKoeln": "ca. 11 Std."
     }
   ]
 }
