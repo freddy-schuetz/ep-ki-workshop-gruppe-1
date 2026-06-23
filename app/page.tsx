@@ -6,7 +6,7 @@ const KarteClient = dynamic(() => import("./KarteClient"), { ssr: false });
 
 export default function Home() {
   return (
-    <main className="relative h-screen w-full" style={{ background: "#d6e8f7" }}>
+    <main className="relative h-screen w-full">
       {/* Schneeflocken */}
       <div className="pointer-events-none absolute inset-0 z-[500] overflow-hidden">
         <style>{`@keyframes fall { to { transform: translateY(110vh) } }`}</style>

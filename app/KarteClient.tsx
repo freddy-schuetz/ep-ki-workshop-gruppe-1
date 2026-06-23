@@ -7,11 +7,10 @@ import skigebiete from "@/data/skigebiete.json";
 export default function KarteClient() {
   return (
     <MapContainer center={[46.8, 10.5]} zoom={7} className="h-full w-full">
-      {/* Helles, schnee-weißes Winter-Design */}
       <TileLayer
-        attribution='&copy; <a href="https://carto.com/">CARTO</a>'
-        url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png"
-        subdomains="abcd"
+        attribution='&copy; <a href="https://opentopomap.org">OpenTopoMap</a>'
+        url="https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png"
+        subdomains="abc"
       />
       {skigebiete.gebiete.map((g) => (
         <CircleMarker
