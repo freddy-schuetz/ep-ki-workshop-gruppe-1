@@ -8,8 +8,8 @@ export default function KarteClient() {
   return (
     <MapContainer center={[46.8, 10.5]} zoom={7} className="h-full w-full">
       <TileLayer
-        attribution="&copy; OpenStreetMap"
-        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+        attribution="Tiles &copy; Esri"
+        url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
       />
       {skigebiete.gebiete.map((g) => (
         <CircleMarker
