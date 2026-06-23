@@ -18,7 +18,30 @@ export default function KarteClient() {
           radius={9}
           pathOptions={{ color: "#0b3a8c", fillColor: "#1457c8", fillOpacity: 0.9 }}
         >
-          <Popup>{g.name}</Popup>
+          <Popup>
+            <div style={{ minWidth: 200 }}>
+              <div style={{ fontWeight: 700, fontSize: 15, color: "#0b3a8c", marginBottom: 4 }}>
+                {g.name}
+              </div>
+              <div style={{ color: "#555", marginBottom: 6 }}>
+                {g.region} · {g.land}
+              </div>
+              <div style={{ marginBottom: 4 }}>
+                🎿 <strong>{g.pistenKm} Pistenkilometer</strong>
+              </div>
+              <div style={{ marginBottom: 4 }}>
+                ⛰️ bis <strong>{g.hoeheMeter} m</strong> Höhe
+              </div>
+              <div style={{ marginBottom: 6, fontStyle: "italic", color: "#333" }}>
+                „{g.highlight}"
+              </div>
+              {g.skipassInklusive && (
+                <div style={{ color: "#2fae66", fontWeight: 600 }}>
+                  ✓ Skipass inklusive
+                </div>
+              )}
+            </div>
+          </Popup>
         </CircleMarker>
       ))}
     </MapContainer>
